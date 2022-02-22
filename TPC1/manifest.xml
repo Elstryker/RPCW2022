@@ -16,6 +16,18 @@
         Criação de uma página web sobre Japão. Foi desenvolvivda uma pequena descrição do país, bem como a apresentação da bandeira nacional.
     </Resumo>
     <ListaDeResultados>
-        (Não faço ideia do que pôr aqui)
+        <htmls>
+            <nome>
+                index.html
+            </nome>
+        </htmls>
+        <css>
+            <nome>
+                style.css
+            </nome>
+        </css>
+        <imagem>
+            img/Flag_of_Japan.svg
+        </imagem>
     </ListaDeResultados>
 </xml>
