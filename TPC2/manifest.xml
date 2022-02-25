@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC 2: Criação de um servidor de páginas web</titulo>
+        <data>2022-02-25</data>
+        <autor>
+            <id>PG47626</id>
+            <nome>Rúben Correia Cerqueira</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Servidor que apresenta uma lista de títulos de filmes disponíveis</p>
+        <p>Ao clicar em cada titulo, irá ser apresentada uma página com detalhes</p>
+        <p>Se não houver algum titulo, irá ser retornado erro</p>
+
+    </resumo>
+    <resultados>
+        <resultado><url>cinemaATP.json</url><texto>Dataset Base</texto></resultado>
+        <resultado><url>index.html</url><texto>Página principal gerada</texto></resultado>
+        <resultado><url>htmlGenerator.js</url><texto>Ficheiro de geração de páginas html</texto></resultado>
+        <resultado><url>liveServer.js</url><texto>Servidor responsável pela disponibilização de páginas web</texto></resultado>
+        <resultado><url>/HTMLArchive</url><texto>Arquivo de ficheiros HTML de filmes</texto></resultado>
+    </resultados>
+</doc>
