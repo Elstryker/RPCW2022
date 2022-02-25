@@ -1,0 +1,43 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 2cm;
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    border: 4px solid rgb(216, 90, 11);
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 7%;
+}
+
+ul {
+    width: 20%;
+    margin-left: 10%;
+    background: #ba6907;
+    padding: 20px;
+}  
+
+ul li {
+    background: #f7c04b;
+    color: darkred;
+    padding: 2px;
+    margin-left: 25px;
+    margin-top: 5px;
+}

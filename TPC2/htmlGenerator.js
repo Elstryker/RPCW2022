@@ -20,8 +20,7 @@ function createHTML(movie,movieNumber) {
         genresHTML += `         <li>${element}</li>\n`
     })
 
-    var template = `<!DOCTYPE html>
-<html lang="en">
+    var template = `<html lang="en">
     <head>
         <title>${"f"+ movieNumber}</title>
         <meta charset="UTF-8">
@@ -32,7 +31,7 @@ function createHTML(movie,movieNumber) {
             ${title}
         </h1>
         <h2>
-            Release year: ${year}
+            Data de Lançamento: ${year}
         </h2>
         <p>Elenco:</p>
         <ul>
@@ -42,19 +41,53 @@ ${castHTML}
         <ul>
 ${genresHTML}
         </ul>
+        <p><a href="http://localhost:12500/filmes">Voltar</a></p>
     </body>
 </html>`
 
-    fs.writeFile("./HTMLArchive/f" + movieNumber + ".html",template,"utf8",function(err){
+    fs.writeFile("./HTMLArchive/f" + movieNumber + ".html",template,"utf-8",function(err){
         if(err){
             console.log("Error writing")
         }
     })
 }
 
-movieNumber = 1
+function createHomePage(dataset){
+    var html = `<html lang="en">
+    <head>
+        <title>Página Principal</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Página Principal</h1>
+        <ul>
+`
+    let movieNum = 1
+    dataset.forEach(element => {
+        html += `           <li>  <a href="http://localhost:12500/filmes/f${movieNum++}">${element.title}</a>  </li>\n`
+    })
+    html += `       </ul>
+    </body>
+</html>`
 
-dataset.forEach(element => {
+    fs.writeFile("./index.html", html, "utf-8", function(err) {
+        if(err) {
+            console.log("Error writing")
+        }
+    })
+}
+
+var data = dataset.sort(function(a, b) {
+    var textA = a.title.toUpperCase();
+    var textB = b.title.toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+});
+
+var movieNumber = 1
+
+createHomePage(data)
+
+data.forEach(element => {
     createHTML(element,movieNumber)
     movieNumber++;
 });
