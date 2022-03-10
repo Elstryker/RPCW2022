@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC3 - Criação de um servidor consumidor de API</titulo>
+        <data>2022-03-10</data>
+        <autor>
+            <id>PG47626</id>
+            <nome>Rúben Correia Cerqueira</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este TPC consistiu na implementação de um servidor que mostra páginas HTML com alunos, cursos e instrumentos de uma escola de musica</p>
+        <p>Este servidor para requerer os dados consulta uma API através de pedidos HTTP GET para buscar a informacao que necessita</p>
+
+    </resumo>
+    <resultados>
+        <resultado><url>index.html</url><texto>Página inicial do servidor</texto></resultado>
+        <resultado><url>db.json</url><texto>Base de dados da API</texto></resultado>
+        <resultado><url>package.json</url><texto>Dependências do servidor</texto></resultado>
+        <resultado><url>package-lock.json</url><texto>Dependências do servidor</texto></resultado>
+        <resultado><url>/node_modules</url><texto>Dependências do servidor</texto></resultado>
+
+    </resultados>
+</doc>
