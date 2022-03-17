@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(185, 223, 248);
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(1, 1, 155);
+}
+
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.taskBlock {
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color:blue;
+}
+
+.child {
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+    text-align: left;
+    padding: 2rem 2rem;
+}
+
+.container {
+    background-color: rgb(138, 208, 255);
+    margin-top: 10px;
+    padding: 1rem 1rem;
+}
+
+.formContainer {
+    margin: 35px auto;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    text-align: center;
+    background-color: aqua;
+    width: 50%;
+}
+
+#todoTasks {
+    border-right: 5px solid red;
+}
+
+#doneTasks {
+    border-left: 5px solid red;
+}
+
+#fields {
+    padding-left: 0px;
+}

@@ -1,0 +1,36 @@
+{
+  "tarefas": [
+    {
+      "id": "1",
+      "who": "John Cena",
+      "dateDued": "2022-03-20",
+      "what": "Appear somewhere",
+      "dateCreated": "2022-03-16",
+      "type": "done"
+    },
+    {
+      "id": "2",
+      "who": "Robert Downey Junior",
+      "dateDued": "2022-03-20",
+      "what": "Revive Iron Man",
+      "dateCreated": "2022-03-16",
+      "type": "todo"
+    },
+    {
+      "id": "4",
+      "who": "Luisa",
+      "dateDued": "2022-03-18",
+      "what": "Lavar a roupa",
+      "dateCreated": "2022-03-17",
+      "type": "todo"
+    },
+    {
+      "id": "5",
+      "who": "Martin Luther King",
+      "dateDued": "2022-03-21",
+      "what": "Have a dream",
+      "dateCreated": "2022-03-17",
+      "type": "todo"
+    }
+  ]
+}

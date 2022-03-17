@@ -1,0 +1,18 @@
+{
+  "name": "tpc4",
+  "version": "1.0.0",
+  "description": "Realização do TPC4 de RPCW",
+  "main": "liveServer.js",
+  "scripts": {
+    "test": "node liveServer.js",
+    "api": "json-server -w db.json",
+    "demon": "nodemon liveServer.js"
+  },
+  "author": "Rúben Cerqueira",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "nodemon": "^2.0.15"
+  }
+}
