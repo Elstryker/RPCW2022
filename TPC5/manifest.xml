@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC5 - Criação de servidor com Express</titulo>
+        <data>2022-03-22</data>
+        <autor>
+            <id>PG47626</id>
+            <nome>Rúben Correia Cerqueira</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Criação de um servidor usando a framework Express</p>
+        <p>Este servidor irá apresentar várias músicas, sendo possivel navegar por vários menus detalhados</p>
+        <p>Existe menus agrupados por provincia</p>
+        <p>Também é possivel adicionar novas musicas</p>
+
+    </resumo>
+    <resultados>
+        <resultado><url>processJSON.py</url><texto>Script de processamento do JSON</texto></resultado>
+        <resultado><url>package.json</url><texto>Dependências da aplicação</texto></resultado>
+        <resultado><url>package-lock.json</url><texto>Dependências da aplicação</texto></resultado>
+        <resultado><url>arq-son.json</url><texto>Base de dados da aplicação</texto></resultado>
+        <resultado><url>app.js</url><texto>Aplicação base</texto></resultado>
+        <resultado><url>/views</url><texto>Diretoria com as vistas da aplicação</texto></resultado>
+        <resultado><url>/routes</url><texto>Diretoria com lógica de rotas</texto></resultado>
+        <resultado><url>/public</url><texto>Diretoria com distribuição de recursos estáticos</texto></resultado>
+        <resultado><url>/node_modules</url><texto>Dependências da aplicação</texto></resultado>
+        <resultado><url>/bin</url><texto>Executáveis</texto></resultado>
+
+    </resultados>
+</doc>

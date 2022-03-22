@@ -6,7 +6,7 @@
       "dateDued": "2022-03-20",
       "what": "Appear somewhere",
       "dateCreated": "2022-03-16",
-      "type": "done"
+      "type": "todo"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "dateDued": "2022-03-20",
       "what": "Revive Iron Man",
       "dateCreated": "2022-03-16",
-      "type": "todo"
+      "type": "done"
     },
     {
       "id": "4",
@@ -22,7 +22,7 @@
       "dateDued": "2022-03-18",
       "what": "Lavar a roupa",
       "dateCreated": "2022-03-17",
-      "type": "todo"
+      "type": "done"
     },
     {
       "id": "5",
@@ -30,7 +30,7 @@
       "dateDued": "2022-03-21",
       "what": "Have a dream",
       "dateCreated": "2022-03-17",
-      "type": "todo"
+      "type": "done"
     }
   ]
 }

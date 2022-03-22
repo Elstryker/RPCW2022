@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1 Musicas da provincia: #{provincia}
+    h2 Data: #{date}
+    ul
+        each prov in provs
+            li
+                a(href="/musicas/" + prov.id)=prov.tit
+    hr
+    address
+        a(href="/musicas") Voltar
+    
