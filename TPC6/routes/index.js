@@ -22,6 +22,10 @@ router.get('/insert', (req,res) => {
     res.render('insert', {})
 })
 
+router.get('/download/:file', (req,res) => {
+    res.download(__dirname + '/../fileStorage/' + req.params.file)
+})
+
 router.post('/files',upload.single('file'),(req,res) => {
     let oldPath = __dirname + '/../' + req.file.path
     let newPath = __dirname + '/../fileStorage/' + req.file.originalname

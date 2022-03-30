@@ -16,7 +16,8 @@ block content
         each file in files
             tr
                 td= file.date
-                td= file.file
+                td
+                    a(href="/download/"+file.file)=file.file
                 td= file.size
                 td= file.type
                 td= file.text
