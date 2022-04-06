@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 Recurso à CLAV API
+    p Bem vindo à página inicial!
+    ul
+    each item in items
+        li #{item.titulo} - 
+            a(href="/classes/" + item.codigo)=item.codigo
+

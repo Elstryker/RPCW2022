@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    a(href="/") Página Inicial
+    br
+    if classe.nivel > 1
+        a(href="/classes/" + classe.pai.codigo) Página Anterior
+    h1 Classe: #{classe.titulo}
+    p Descrição: #{classe.descricao}
+    br
+    p Nivel: #{classe.nivel}
+    p Código: #{classe.codigo}
+    br
+    br
+    p Descendentes:
+    ul
+    each filho in classe.filhos
+        li #{filho.titulo} - 
+            a(href="/classes/" + filho.codigo)=filho.codigo
+    br
+    br
+    p Processos relacionados:
+    ul
+    each filho in classe.processosRelacionados
+        if filho.idRel == "eCruzadoCom" || filho.idRel == "eComplementarDe" || filho.idRel == "eSuplementoDe" || filho.idRel == "eSuplementoPara"
+            li #{filho.titulo} - 
+                a(href="/classes/" + filho.codigo)=filho.codigo
+
