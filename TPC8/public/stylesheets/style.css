@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.paragraphItem {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.childAlign {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px;
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 Secção de parágrafos
+    form
+        label(for="GET-paragraph")
+        textarea(id="GET-paragraph", name="paragraph", type="field", rows="3" cols="80")
+        input(id="submit-paragraph", type="submit", value="Submit")
+        input(id="reset", type="reset", value="Reset")
+        p Mode: Add
+
+    h2 Parágrafos Existentes:
+
+    ul
